@@ -5,8 +5,9 @@ def join_nested_strings(mixed_data)
     element_index = "" 
     while element_index < mixed_data[row_index].count do 
       if mixed_data[row_index][element_index].class == String
-      
+        
       end 
+      element_index += 1 
    end
     nested_strings << mixed_data[row_index][element_index] + ""
     row_index += 1 
