@@ -10,7 +10,6 @@ def join_nested_strings(mixed_data)
       element_index += 1 
    end
    
-    #nested_strings << mixed_data[row_index][element_index] + ""
     row_index += 1 
   end
   nested_strings
